@@ -25,23 +25,23 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 0,
 // left hand
-    _equal,     _1,         _2,      _3,      _4,    _5, _esc,
-_backslash,     _Q,         _W,      _E,      _R,    _T,    1,
-      _tab,     _A,         _S,      _D,      _F,    _G,
-   _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
-     _guiL, _grave, _backslash, _arrowL, _arrowR,
-                                                 _ctrlL, _altL,
-                                              0,      0, _home,
-                                            _bs,   _del,  _end,
+    _guiL,     _1,         _2,      _3,      _4,    _5, _del,
+     _esc,     _Q,         _W,      _E,      _R,    _T,    1,
+     _tab,     _A,         _S,      _D,      _F,    _G,
+  _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
+     1, _grave, _home, _dash, _equal,
+                                                 _capsLock, _home,
+                                              0,      0, _end,
+                                            _space,   _ctrlL,  _altL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _dash,
-_bracketL, _Y,      _U,      _I,      _O,         _P, _bracketR,
+        _dash, _Y,      _U,      _I,      _O,         _P, _backslash,
            _H,      _J,      _K,      _L, _semicolon,    _quote,
         1, _N,      _M,  _comma, _period,     _slash,   _shiftR,
-               _arrowL, _arrowD, _arrowU,    _arrowR,     _guiR,
- _altR, _ctrlR,
-_pageU,      0,      0,
-_pageD, _enter, _space ),
+               _arrowL, _arrowD, _arrowU,    _arrowR,     1,
+ _pageU, _ctrlR,
+_pageD,      0,      0,
+_altR, _bs, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
