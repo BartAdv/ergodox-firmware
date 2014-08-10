@@ -62,6 +62,8 @@
 	void kbfun_layer_push_numpad             (void);
 	void kbfun_layer_pop_numpad              (void);
 	void kbfun_mediakey_press_release        (void);
+        void kbfun_altL_press_release            (void);
+        void kbfun_ctrlL_press_release           (void);
 
 #endif
 

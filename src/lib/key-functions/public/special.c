@@ -43,6 +43,16 @@ void kbfun_shift_press_release(void) {
 	kbfun_press_release();
 }
 
+void kbfun_altL_press_release(void) {
+  _kbfun_press_release(IS_PRESSED, KEY_LeftAlt);
+  kbfun_press_release();
+}
+
+void kbfun_ctrlL_press_release(void) {
+  _kbfun_press_release(IS_PRESSED, KEY_LeftControl);
+  kbfun_press_release();
+}
+
 /*
  * [name]
  *   Two keys => capslock

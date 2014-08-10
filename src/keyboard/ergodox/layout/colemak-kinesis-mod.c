@@ -53,7 +53,7 @@ _bs, _esc, _enter ),
   0, _1,     _8,     _9,     _0, _semicolon,
   0,      _quote,   _quote,     _comma,     _7,    _backslash,    2,
   0,          0,          0,         0,         0,
-                                                             0,  0,
+                                                             _tab,  _tab,
                                                          0,  0,  0,
                                                          0,  0,  0,
 // right hand
@@ -154,6 +154,8 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
 #define  s2kcap   &kbfun_2_keys_capslock_press_release
 #define  slpunum  &kbfun_layer_push_numpad
 #define  slponum  &kbfun_layer_pop_numpad
+#define  altLprre &kbfun_altL_press_release
+#define  ctrlLprre &kbfun_ctrlL_press_release
 
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
@@ -192,7 +194,7 @@ NULL,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, sshprre, sshprre, lpush2,
  ktrans, ktrans, ktrans, ktrans, ktrans,
-                                                 ktrans, ktrans,
+                                                 altLprre, ctrlLprre,
                                          ktrans, ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
 // right hand
@@ -290,7 +292,7 @@ NULL,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, sshprre, sshprre,  lpop2,
  ktrans, ktrans, ktrans, ktrans, ktrans,
-                                                 ktrans, ktrans,
+                                                 altLprre, ctrlLprre,
                                          ktrans, ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
 // right hand
