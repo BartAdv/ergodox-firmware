@@ -48,6 +48,11 @@ void kbfun_altL_press_release(void) {
   kbfun_press_release();
 }
 
+void kbfun_altR_press_release(void) {
+  _kbfun_press_release(IS_PRESSED, KEY_RightAlt);
+  kbfun_press_release();
+}
+
 void kbfun_ctrlL_press_release(void) {
   _kbfun_press_release(IS_PRESSED, KEY_LeftControl);
   kbfun_press_release();

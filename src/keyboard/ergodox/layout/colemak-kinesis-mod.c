@@ -155,6 +155,7 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
 #define  slpunum  &kbfun_layer_push_numpad
 #define  slponum  &kbfun_layer_pop_numpad
 #define  altLprre &kbfun_altL_press_release
+#define  altRprre &kbfun_altR_press_release
 #define  ctrlLprre &kbfun_ctrlL_press_release
 
 // ----------------------------------------------------------------------------
@@ -194,7 +195,7 @@ NULL,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, sshprre, sshprre, lpush2,
  ktrans, ktrans, ktrans, ktrans, ktrans,
-                                                 altLprre, ctrlLprre,
+                                                 altRprre, ctrlLprre,
                                          ktrans, ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
 // right hand
@@ -292,7 +293,7 @@ NULL,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, sshprre, sshprre,  lpop2,
  ktrans, ktrans, ktrans, ktrans, ktrans,
-                                                 altLprre, ctrlLprre,
+                                                 altRprre, ctrlLprre,
                                          ktrans, ktrans, ktrans,
                                          ktrans, ktrans, ktrans,
 // right hand
