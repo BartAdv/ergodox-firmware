@@ -32,7 +32,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
      1, _home, _pageD, _pageU, _end,
                                                  _capsLock, _guiL,
                                               0,      0, _altL,
-                                            _space,   1, _tab,
+                                            _space,   1, _esc,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _dash,
        _0, _J,      _L,      _U,      _Y,         _semicolon, _backslash,
@@ -41,7 +41,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
                _arrowL, _arrowD, _arrowU,    _arrowR,    _ctrlR,
  _pageU, _del,
 _pageD,      0,      0,
-_esc, _bs, _enter ),
+_tab, _bs, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
