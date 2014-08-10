@@ -29,7 +29,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
     _tab,     _Q,         _W,      _F,      _P,    _G,   _9,
     _esc,     _A,         _R,      _S,      _T,    _D,
  _shiftL,     _Z,         _X,      _C,      _V,    _B,    _equal,
-     1, _home, _pageD, _pageU, _end,
+     _home, _pageD, _pageU, _end, _altL,
                                                  _capsLock, _guiL,
                                               0,      0, _altL,
                                             _space,   1, _ctrlL,
