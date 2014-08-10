@@ -38,10 +38,10 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
        _0, _J,      _L,      _U,      _Y,         _semicolon, _backslash,
            _H,      _N,      _E,      _I,         _O,    _quote,
         1, _K,      _M,  _comma, _period,     _slash,   _shiftR,
-               _altR, _arrowL, _arrowD,    _arrowU,     _arrowR,
- _pageU, _ctrlR,
+               _arrowL, _arrowD, _arrowU,    _arrowR,    _ctrlR,
+ _pageU, _del,
 _pageD,      0,      0,
-_del, _bs, _enter ),
+_altR, _bs, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
