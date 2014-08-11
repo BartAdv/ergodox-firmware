@@ -39,7 +39,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
            _H,      _N,      _E,      _I,         _O,    _altR,
         1, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
- _pageU, _del,
+     1, _del,
 _pageD,      0,      0,
 _tab, _bs, _enter ),
 
@@ -167,7 +167,7 @@ const void_funptr_t PROGMEM _kb_layout_press[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 NULL,
 // left hand
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, lpush1,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
@@ -181,7 +181,7 @@ NULL,
                  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          lpush1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                          kprrel, kprrel, kprrel, kprrel, sshprre,
- kprrel, kprrel,
+ lpush1, kprrel,
  kprrel,   NULL,   NULL,
  kprrel, kprrel, kprrel ),
 
@@ -190,7 +190,7 @@ NULL,
 // unused
 NULL,
 // left hand
-   NULL, kprrel, kprrel, kprrel, kprrel, kprrel, lpop1,
+   NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  ktrans, kprrel, kprrel, kprrel, sshprre, sshprre, kprrel,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, kprrel, sshprre, lpush2,
@@ -204,7 +204,7 @@ NULL,
                 kprrel, kprrel,kprrel,kprrel,sshprre, kprrel,
         lpush2,sshprre, kprrel, kprrel, kprrel, kprrel, kprrel,
                         ktrans, ktrans, ktrans, ktrans, ktrans,
- ktrans, ktrans,
+ lpop1, ktrans,
  ktrans, ktrans, ktrans,
  ktrans, ktrans, ktrans ),
 
@@ -265,7 +265,7 @@ const void_funptr_t PROGMEM _kb_layout_release[KB_LAYERS][KB_ROWS][KB_COLUMNS] =
 // unused
 NULL,
 // left hand
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, NULL,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,   sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  kprrel,
@@ -279,7 +279,7 @@ NULL,
                 kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          lpop1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                         kprrel, kprrel, kprrel, kprrel, sshprre,
- kprrel, kprrel,
+ NULL, kprrel,
  kprrel,   NULL,   NULL,
  kprrel, kprrel, kprrel ),
 
@@ -288,7 +288,7 @@ NULL,
 // unused
 NULL,
 // left hand
-   NULL, kprrel, kprrel, kprrel, kprrel, kprrel, NULL,
+   NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  ktrans, kprrel, kprrel, kprrel, sshprre, sshprre,   kprrel,
  ktrans, sshprre, sshprre, sshprre, sshprre,sshprre,
  ktrans, kprrel, sshprre, sshprre, kprrel, sshprre,  lpop2,
@@ -302,7 +302,7 @@ NULL,
                 kprrel, kprrel,kprrel,kprrel,sshprre, kprrel,
          lpop2,sshprre, kprrel, kprrel, kprrel, kprrel, kprrel,
                         ktrans, ktrans, ktrans, ktrans, ktrans,
- ktrans, ktrans,
+ NULL, ktrans,
  ktrans, ktrans, ktrans,
  ktrans, ktrans, ktrans ),
 
