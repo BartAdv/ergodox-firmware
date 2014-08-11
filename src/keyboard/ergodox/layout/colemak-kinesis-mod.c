@@ -50,7 +50,7 @@ _tab, _bs, _enter ),
 // left hand
   0,        _F1,        _F2,       _F3,       _F4,       _F5, _F11,
   0,  _grave,  _bracketL, _bracketR, _bracketL,  _bracketR,    1,
-  0, _1,     _8,     _9,     _0, _semicolon,
+  0, _1,     _7,     _8,     _9,    _0,
   0,      _quote,    _7,_backslash,   _quote,    _quote,    2,
   0,          0,          0,         0,         0,
                                                              _tab,  _tab,
