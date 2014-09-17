@@ -41,7 +41,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
      1, _del,
 _pageD,      0,      0,
-_tab, _bs, _enter ),
+_del, _bs, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
