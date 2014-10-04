@@ -151,6 +151,7 @@ _F12,       _F6,    _F7,       _F8,       _F9,         _F10,   _power,
 
 // special
 #define  sshprre  &kbfun_shift_press_release
+#define  revshft  &kbfun_reverse_shift
 #define  s2kcap   &kbfun_2_keys_capslock_press_release
 #define  slpunum  &kbfun_layer_push_numpad
 #define  slponum  &kbfun_layer_pop_numpad
@@ -177,7 +178,7 @@ NULL,
                                          kprrel, lpush1, kprrel,
 // right hand
         slpunum, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
+         sshprre, kprrel, kprrel, kprrel, kprrel, revshft, kprrel,
                  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          lpush1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                          kprrel, kprrel, kprrel, kprrel, sshprre,
@@ -275,7 +276,7 @@ NULL,
                                          kprrel, lpop1, kprrel,
 // right hand
           NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-        sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
+        sshprre, kprrel, kprrel, kprrel, kprrel, revshft, kprrel,
                 kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          lpop1, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                         kprrel, kprrel, kprrel, kprrel, sshprre,
