@@ -44,10 +44,12 @@ void kbfun_shift_press_release(void) {
 }
 
 void kbfun_reverse_shift(void) {
-  if(!_kbfun_is_pressed(KEY_RightShift))
+  if(!_kbfun_is_pressed(KEY_RightShift) && !_kbfun_is_pressed(KEY_LeftShift))
     _kbfun_press_release(IS_PRESSED, KEY_RightShift);
-  else
+  else {
+    _kbfun_press_release(false, KEY_LeftShift);
     _kbfun_press_release(false, KEY_RightShift);
+  }
   kbfun_press_release();
 }
 
