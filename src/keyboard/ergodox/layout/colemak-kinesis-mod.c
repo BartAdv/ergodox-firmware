@@ -31,7 +31,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
  _shiftL,     _Z,         _X,      _C,      _V,    _B,    _equal,
      _X, _pageD, _pageU, _end, _altL,
                                                  _del, _guiL,
-                                              0,      0, _altL,
+                                              0,      0, _guiL,
                                             _space,   1, _ctrlL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _backslash,
