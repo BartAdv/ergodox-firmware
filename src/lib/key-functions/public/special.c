@@ -43,12 +43,25 @@ void kbfun_shift_press_release(void) {
 	kbfun_press_release();
 }
 
+static int unpressed_shift = 0;
+;;;;;;;
 void kbfun_reverse_shift(void) {
-  if(!_kbfun_is_pressed(KEY_RightShift) && !_kbfun_is_pressed(KEY_LeftShift))
-    _kbfun_press_release(IS_PRESSED, KEY_RightShift);
-  else {
-    _kbfun_press_release(false, KEY_LeftShift);
-    _kbfun_press_release(false, KEY_RightShift);
+  if(IS_PRESSED) {
+    if(_kbfun_is_pressed(KEY_LeftShift)) {
+      _kbfun_press_release(false, KEY_LeftShift);
+      unpressed_shift = KEY_LeftShift;
+    } else if(_kbfun_is_pressed(KEY_RightShift)) {
+      _kbfun_press_release(false, KEY_RightShift);
+      unpressed_shift = KEY_RightShift;
+    } else {
+      _kbfun_press_release(true, KEY_LeftShift);
+    }
+  } else {
+    if(_kbfun_is_pressed(KEY_LeftShift)) {
+      _kbfun_press_release(false, KEY_LeftShift);
+    } else {
+      _kbfun_press_release(true, unpressed_shift);
+    }
   }
   kbfun_press_release();
 }
