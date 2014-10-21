@@ -35,7 +35,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
                                             _space,   1, _ctrlL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _backslash,
-       _8, _J,      _L,      _U,      _Y,         _dash, _semicolon,
+       _0, _J,      _L,      _U,      _Y,         _dash, _semicolon,
            _H,      _N,      _E,      _I,         _O,    _quote,
         _bracketR, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
