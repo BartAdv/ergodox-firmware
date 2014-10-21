@@ -26,7 +26,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 0,
 // left hand
     _esc,     _1,         _2,      _3,      _4,    _5,    1,
-    _bracketL,     _Q,         _W,      _F,      _P,    _G,   _9,
+    _semicolon,     _Q,         _W,      _F,      _P,    _G,   _9,
     _tab,     _A,         _R,      _S,      _T,    _D,
  _shiftL,     _Z,         _X,      _C,      _V,    _B,    _bracketL,
      _X, _pageD, _pageU, _end, _altL,
@@ -35,7 +35,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
                                             _space,   1, _ctrlL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _backslash,
-       _0, _J,      _L,      _U,      _Y,         _dash, _semicolon,
+       _0, _J,      _L,      _U,      _Y,         _dash, _equal,
            _H,      _N,      _E,      _I,         _O,    _quote,
         _bracketR, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
@@ -169,7 +169,7 @@ const void_funptr_t PROGMEM _kb_layout_press[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 NULL,
 // left hand
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
+ revshft, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel, revshft,
  altLprre, kprrel, kprrel, kprrel, kprrel,
@@ -178,7 +178,7 @@ NULL,
                                          kprrel, lpush1, kprrel,
 // right hand
         slpunum, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-         sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, revshft,
+         sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          revshft, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                          kprrel, kprrel, kprrel, kprrel, sshprre,
@@ -267,7 +267,7 @@ const void_funptr_t PROGMEM _kb_layout_release[KB_LAYERS][KB_ROWS][KB_COLUMNS] =
 NULL,
 // left hand
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,   sshprre,
+ revshft, kprrel, kprrel, kprrel, kprrel, kprrel,   sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  revshft,
  altLprre, kprrel, kprrel, kprrel, kprrel,
@@ -276,7 +276,7 @@ NULL,
                                          kprrel, lpop1, kprrel,
 // right hand
           NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
-        sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, revshft,
+        sshprre, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
                 kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          revshft, kprrel, kprrel, kprrel, kprrel, kprrel, s2kcap,
                         kprrel, kprrel, kprrel, kprrel, sshprre,
