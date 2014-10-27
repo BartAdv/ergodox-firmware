@@ -169,7 +169,7 @@ const void_funptr_t PROGMEM _kb_layout_press[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 NULL,
 // left hand
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
- revshft, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel, revshft,
  altLprre, kprrel, kprrel, kprrel, kprrel,
@@ -267,7 +267,7 @@ const void_funptr_t PROGMEM _kb_layout_release[KB_LAYERS][KB_ROWS][KB_COLUMNS] =
 NULL,
 // left hand
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
- revshft, kprrel, kprrel, kprrel, kprrel, kprrel,   sshprre,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,   sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  revshft,
  altLprre, kprrel, kprrel, kprrel, kprrel,

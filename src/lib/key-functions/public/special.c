@@ -43,9 +43,10 @@ void kbfun_shift_press_release(void) {
 	kbfun_press_release();
 }
 
-static int unpressed_shift = 0;
 ;;;;;;;
 void kbfun_reverse_shift(void) {
+  static uint8_t unpressed_shift;
+  
   if(IS_PRESSED) {
     if(_kbfun_is_pressed(KEY_LeftShift)) {
       _kbfun_press_release(false, KEY_LeftShift);
