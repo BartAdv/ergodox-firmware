@@ -168,7 +168,7 @@ const void_funptr_t PROGMEM _kb_layout_press[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 NULL,
 // left hand
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, lpush2,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
@@ -266,7 +266,7 @@ const void_funptr_t PROGMEM _kb_layout_release[KB_LAYERS][KB_ROWS][KB_COLUMNS] =
 // unused
 NULL,
 // left hand
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, lpop2,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  kprrel,
