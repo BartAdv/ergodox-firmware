@@ -25,23 +25,23 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // unused
 0,
 // left hand
-    _esc,     _1,         _2,      _3,      _4,    _5,    _bs,
+    _esc,     _1,         _2,      _3,      _4,    _5,      2,
 _semicolon,     _Q,         _W,      _F,      _P,    _G,   _9,
     _tab,   _A,         _R,      _S,      _T,    _D,
    _shiftL,   _Z,         _X,      _C,      _V,    _B,    _bracketL,
          1,   _7, _8, _semicolon, _bs,
                                                  _del, _F10,
                                               0,    0, _F8,
-                                            _space, _ctrlL, _guiL,
+                                            _space, ctrlL, _guiL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _backslash,
 _0, _J,      _L,      _U,      _Y,         _dash, _equal,
            _H,      _N,      _E,      _I,         _O,    _quote,
 _bracketR, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
-     _F5, _F12,
+     _F11, _F12,
 _ctrlR,      0,      0,
-_altR, _altL, _enter ),
+_altR, _ctrlR, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
@@ -266,7 +266,7 @@ const void_funptr_t PROGMEM _kb_layout_release[KB_LAYERS][KB_ROWS][KB_COLUMNS] =
 // unused
 NULL,
 // left hand
- kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, lpop2,
+ kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
  s2kcap, kprrel, kprrel, kprrel, kprrel, kprrel,  kprrel,
