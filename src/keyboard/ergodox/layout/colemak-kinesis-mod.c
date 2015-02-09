@@ -32,7 +32,7 @@ _semicolon,     _Q,         _W,      _F,      _P,    _G,   _del,
         _C,   _X, _8, _semicolon, _altL,
                                                  _F9, _F10,
                                               0,    0, _F11,
-                                            _space, _ctrlL, _guiL,
+                                            _space, 1, _guiL,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _backslash,
        _bs, _J,      _L,      _U,      _Y,         _dash, _equal,
@@ -41,7 +41,7 @@ _enter, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
      _F8, _F12,
 _ctrlR,      0,      0,
-_altR, _altL, 1 ),
+_altR, _altL, _ctrlL ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
@@ -175,7 +175,7 @@ NULL,
  ctrlLprre,ctrlLprre,kprrel, kprrel,kprrel,
                                                  kprrel, kprrel,
                                            NULL,   NULL, kprrel,
-                                         kprrel, kprrel, kprrel,
+                                         kprrel, lpush1, kprrel,
 // right hand
         slpunum, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
          kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
@@ -184,7 +184,7 @@ NULL,
                          kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
- kprrel, kprrel, lpush1 ),
+ kprrel, kprrel, kprrel ),
 
 
 	KB_MATRIX_LAYER(  // press: layer 1: function and symbol keys
@@ -273,7 +273,7 @@ NULL,
  ctrlLprre,ctrlLprre,kprrel, kprrel,kprrel,
                                                  kprrel, kprrel,
                                            NULL,   NULL, kprrel,
-                                         kprrel, kprrel, kprrel,
+                                         kprrel, kprrel, lpop1,
 // right hand
           NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
@@ -282,7 +282,7 @@ NULL,
                         kprrel, kprrel, kprrel, kprrel, sshprre,
  kprrel, kprrel,
  kprrel,   NULL,   NULL,
- kprrel, kprrel, lpop1 ),
+ kprrel, kprrel, kprrel ),
 
 
 	KB_MATRIX_LAYER(  // release: layer 1: function and symbol keys
