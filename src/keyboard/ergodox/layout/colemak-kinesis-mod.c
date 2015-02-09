@@ -273,7 +273,7 @@ NULL,
  ctrlLprre,ctrlLprre,kprrel, kprrel,kprrel,
                                                  kprrel, kprrel,
                                            NULL,   NULL, kprrel,
-                                         kprrel, kprrel, lpop1,
+                                         kprrel, lpop1, kprrel,
 // right hand
           NULL, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
         kprrel, kprrel, kprrel, kprrel, kprrel, kprrel, kprrel,
