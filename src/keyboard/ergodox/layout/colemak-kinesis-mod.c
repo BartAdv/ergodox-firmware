@@ -26,9 +26,9 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 0,
 // left hand
     _esc,     _1,         _2,      _3,      _4,    _5,    _F5,
-    _tab,     _Q,         _W,      _F,      _P,    _G,     _9,
-  _backslash,     _A,         _R,      _S,      _T,    _D,
- _shiftL,   _Z,         _X,      _C,      _V,    _B,    _0,
+_backslash,   _Q,         _W,      _F,      _P,    _G,     _9,
+      _tab,   _A,         _R,      _S,      _T,    _D,
+   _shiftL,   _Z,         _X,      _C,      _V,    _B,    _0,
   _F9,   _F10, _F11, _bracketL, _bracketR,
                                                  _altL, _del,
                                               0,    0, _guiL,
