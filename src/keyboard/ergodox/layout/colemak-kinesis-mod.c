@@ -29,7 +29,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 _backslash,   _Q,         _W,      _F,      _P,    _G,     _9,
       _tab,   _A,         _R,      _S,      _T,    _D,
    _shiftL,   _Z,         _X,      _C,      _V,    _B,    _0,
-  _F9,   _F10, _F11, _bracketL, _bracketR,
+  _grave,   _F10, _F11, _bracketL, _bracketR,
                                                  _guiL, _del,
                                               0,      0,     1,
                                          _space, _ctrlL, _altL,

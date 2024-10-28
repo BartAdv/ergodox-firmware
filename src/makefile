@@ -103,6 +103,7 @@ FORMAT := $(strip $(FORMAT))
 .PHONY: all clean
 
 all: $(TARGET).hex $(TARGET).eep
+	@echo "shit:" $(TARGET) $(LAYOUT)
 	@echo
 	@echo '---------------------------------------------------------------'
 	@echo '------- done --------------------------------------------------'
