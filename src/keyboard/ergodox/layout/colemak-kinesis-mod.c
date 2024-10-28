@@ -39,9 +39,9 @@ _backslash,   _Q,         _W,      _F,      _P,    _G,     _9,
             _H,      _N,      _E,      _I,         _O,    _quote,
 _semicolon, _K,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,    _F10,
-     _ctrlR, _altL,
+     _ctrlR, _guiR,
 1,      0,      0,
-_altR, _guiR, _enter ),
+_altR, _guiL, _enter ),
 
 
 	KB_MATRIX_LAYER(  // layout: layer 1: function and symbol keys
